@@ -1,0 +1,6 @@
+node_modules
+docs/.vitepress/dist
+
+# 视频文件
+*.avi
+*.mp4
