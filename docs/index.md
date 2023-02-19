@@ -10,19 +10,19 @@ hero:
   tagline: 记录博客和个人学习笔记
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/getting-started
+      text: 开始阅读
+      link: /博客/Java相关/Java的拓展包C3P0和DBUtil的使用.html
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: 查看本站源码
+      link: https://github.com/xia-2/blog-vitepress
 
 features:
-  - title: "Vite: The DX that can't be beat"
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
-  - title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+  - title: "技术分享"
+    details: 分享在技术领域的见解和经验。这可以包括如何使用特定的技术、如何解决常见问题或如何优化代码。发布关于特定技术、开发工具或语言的教程文章.
+  - title: 资讯分析
+    details: 分享业界最新动态和新闻，并提供自己的分析和见解。对新技术和趋势进行探索，并讨论它们对行业和开发人员的影响
+  - title: 代码分享
+    details: 将代码开源分享出来。一起讨论代码结构、技术架构、代码最佳实践和其他与代码相关的话题。发布一些开源代码，欢迎其他开发者参与进来。
+  - title: 技术视频
+    details: 制作一些有关技术的视频，如代码演示、技术实践、实用工具使用、开发过程分享等。分享自己的学习经验和技巧，帮助初学者快速入门和学习新技术。
 ---
