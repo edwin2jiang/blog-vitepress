@@ -18,7 +18,7 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+            pattern: 'https://github.com/xia-2/blog-vitepress',
             text: 'Edit this page on GitHub'
         },
 
@@ -155,10 +155,10 @@ function sidebarBlog() {
             "text": "软件教程",
             "collapsible": true,
             "items": [
-                {
-                    "text": "Python自带编辑器IDLE使用教程",
-                    "link": "/博客/软件教程/Python自带编辑器IDLE使用教程"
-                },
+                // {
+                //     "text": "Python自带编辑器IDLE使用教程",
+                //     "link": "/博客/软件教程/Python自带编辑器IDLE使用教程"
+                // },
                 {
                     "text": "typora图床教程-sm.ms",
                     "link": "/博客/软件教程/typora图床教程-sm.ms"
