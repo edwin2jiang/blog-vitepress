@@ -1,28 +1,45 @@
 ---
-layout: home
-
-title: 夏2同学的个人小站
-titleTemplate: Vite & Vue Powered Static Site Generator
-
-hero:
-  name: 夏2同学的个人小站
-  text: 
-  tagline: 记录博客和个人学习笔记
-  actions:
-    - theme: brand
-      text: 开始阅读
-      link: /博客/Java相关/Java的拓展包C3P0和DBUtil的使用.html
-    - theme: alt
-      text: 查看本站源码
-      link: https://github.com/xia-2/blog-vitepress
-
-features:
-  - title: "技术分享"
-    details: 分享在技术领域的见解和经验。这可以包括如何使用特定的技术、如何解决常见问题或如何优化代码。发布关于特定技术、开发工具或语言的教程文章.
-  - title: 资讯分析
-    details: 分享业界最新动态和新闻，并提供自己的分析和见解。对新技术和趋势进行探索，并讨论它们对行业和开发人员的影响
-  - title: 代码分享
-    details: 将代码开源分享出来。一起讨论代码结构、技术架构、代码最佳实践和其他与代码相关的话题。发布一些开源代码，欢迎其他开发者参与进来。
-  - title: 技术视频
-    details: 制作一些有关技术的视频，如代码演示、技术实践、实用工具使用、开发过程分享等。分享自己的学习经验和技巧，帮助初学者快速入门和学习新技术。
+title: '夏 2 同学的个人小站'
+editLink: false
+lastUpdated: false
 ---
+
+<h1><img style="display:inline" src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 嘿！很高兴见到你。</h1>
+
+<p>欢迎来到我的主页！ <br/> 我是<a href="http://www.appletest.cn">Edwin Jiang</a>，目前在广州大学读硕士。<br/>你可以在<a href="http://www.appletest.cn/">博客网站</a>或<a href="https://www.zhihu.com/people/xia_2">知乎</a>上找到我。</p>
+
+<h2>🐍 <a href="https://github.com/xia-2">Github</a> 过去的贡献 | 贪吃蛇游戏</h2>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xia-2/xia-2/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xia-2/xia-2/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/xia-2/xia-2/output/github-contribution-grid-snake.svg">
+</picture>
+
+<h2>🖥️ 我使用的编程语言和工具</h2>
+
+<!--ICONS: https://devicon.dev/ -->
+
+<div style="display:flex;gap:4px;">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="34"/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="34" />
+                    
+                                     
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain-wordmark.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="34" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" width="34"/>
+                    
+                                        
+</div>

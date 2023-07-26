@@ -30,8 +30,9 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present Edwin Jiang',
+      message: `<a href="http://beian.miit.gov.cn/" style="color: var(--vp-c-green)">苏ICP备20024956号</a>`,
+
+      copyright: 'Released under the MIT License. <br/>Copyright © 2022-present Edwin Jiang.',
     },
 
     algolia: {
@@ -53,8 +54,6 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [
-      Unocss(),
-    ],
+    // plugins: [Unocss()],
   },
 })

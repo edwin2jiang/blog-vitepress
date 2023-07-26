@@ -1,22 +1,22 @@
 <script setup>
 const works = [
   {
-    name: '作品1',
-    des: '这是作品1的描述',
-    logo: 'https://www.baidu.com/img/flexible/logo/pc/result.png',
-    url: 'https://www.baidu.com',
+    name: "作品1",
+    des: "这是作品1的描述",
+    logo: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+    url: "https://www.baidu.com",
   },
   {
-    name: '作品2',
-    des: '这是作品2的描述',
-    logo: 'https://www.baidu.com/img/flexible/logo/pc/result.png',
-    url: 'https://www.baidu.com',
+    name: "作品2",
+    des: "这是作品2的描述",
+    logo: "https://www.baidu.com/img/flexible/logo/pc/result.png",
+    url: "https://www.baidu.com",
   },
-]
+];
 
-const jumpToPage = (url) => {
-  window.open(url)
-}
+const openPage = (url) => {
+  window.open(url);
+};
 </script>
 
 <template>
@@ -27,7 +27,7 @@ const jumpToPage = (url) => {
         class="card"
         v-for="work in works"
         :key="work.name"
-        @click="jumpToPage(work.url)"
+        @click="openPage(work.url)"
       >
         <img :src="work.logo" class="img-fluid" />
         <div class="card-body">

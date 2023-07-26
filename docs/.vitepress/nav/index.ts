@@ -22,22 +22,8 @@ export function nav() {
 export function sidebarBlog() {
   return [
     {
-      text: 'Java相关',
-      collapsible: true,
-      items: [
-        {
-          text: 'Java的拓展包C3P0和DBUtil的使用',
-          link: '/博客/Java相关/Java的拓展包C3P0和DBUtil的使用',
-        },
-        {
-          text: 'Java项目目录结构与解析',
-          link: '/博客/Java相关/Java项目目录结构与解析',
-        },
-      ],
-    },
-    {
-      text: 'python',
-      collapsible: true,
+      text: 'Python',
+      collapsed: false,
       items: [
         {
           text: 'python中的JSON到底怎么用？',
@@ -49,19 +35,19 @@ export function sidebarBlog() {
         },
       ],
     },
+    // {
+    //   text: 'Vue相关',
+    //   collapsed: false,
+    //   items: [
+    //     {
+    //       text: 'Vue基础语法回顾',
+    //       link: '/博客/Vue相关/Vue基础语法回顾',
+    //     },
+    //   ],
+    // },
     {
-      text: 'Vue相关',
-      collapsible: true,
-      items: [
-        {
-          text: 'Vue基础语法回顾',
-          link: '/博客/Vue相关/Vue基础语法回顾',
-        },
-      ],
-    },
-    {
-      text: '科技杂文',
-      collapsible: true,
+      text: '杂文',
+      collapsed: false,
       items: [
         {
           text: 'mdNice皮肤文本',
@@ -71,10 +57,10 @@ export function sidebarBlog() {
           text: 'Ubuntu software解决下载速度过慢',
           link: '/博客/科技杂文/Ubuntu software解决下载速度过慢',
         },
-        {
-          text: '【计算机专业必备】宿舍显示器指南',
-          link: '/博客/科技杂文/【计算机专业必备】宿舍显示器指南',
-        },
+        // {
+        //   text: '【计算机专业必备】宿舍显示器指南',
+        //   link: '/博客/科技杂文/【计算机专业必备】宿舍显示器指南',
+        // },
         {
           text: '搜狗输入法里的那些骚操作',
           link: '/博客/科技杂文/搜狗输入法里的那些骚操作',
@@ -86,22 +72,8 @@ export function sidebarBlog() {
       ],
     },
     {
-      text: '软件推荐',
-      collapsible: true,
-      items: [
-        {
-          text: '【实用技能】如何复制项目文件不包括node_modules',
-          link: '/博客/软件推荐/【实用技能】如何复制项目文件不包括node_modules',
-        },
-        {
-          text: '别再翻了，大学私藏实用工具_网站全在这里了！',
-          link: '/博客/软件推荐/别再翻了，大学私藏实用工具_网站全在这里了！',
-        },
-      ],
-    },
-    {
       text: '软件教程',
-      collapsible: true,
+      collapsed: false,
       items: [
         // {
         //     "text": "Python自带编辑器IDLE使用教程",
@@ -133,14 +105,43 @@ export function sidebarBlog() {
         },
       ],
     },
+    {
+      text: '软件推荐',
+      collapsed: false,
+      items: [
+        {
+          text: '【实用技能】如何复制项目文件不包括node_modules',
+          link: '/博客/软件推荐/【实用技能】如何复制项目文件不包括node_modules',
+        },
+        {
+          text: '别再翻了，大学私藏实用工具_网站全在这里了！',
+          link: '/博客/软件推荐/别再翻了，大学私藏实用工具_网站全在这里了！',
+        },
+      ],
+    },
+    
+    {
+      text: 'Java',
+      collapsed: false,
+      items: [
+        {
+          text: 'Java的拓展包C3P0和DBUtil的使用',
+          link: '/博客/Java相关/Java的拓展包C3P0和DBUtil的使用',
+        },
+        {
+          text: 'Java项目目录结构与解析',
+          link: '/博客/Java相关/Java项目目录结构与解析',
+        },
+      ],
+    },
   ]
 }
 
 export function sidebarLearningNote() {
   return [
     {
-      text: 'Vue快速入门',
-      collapsible: true,
+      text: 'Vue学习笔记',
+      collapsed: true,
       items: [
         {
           text: 'Vue3 - ref和reactive以及组合式API',
@@ -162,7 +163,7 @@ export function sidebarLearningNote() {
     },
     {
       text: '微信小程序',
-      collapsible: true,
+      collapsed: false,
       items: [
         {
           text: 'WXML学习',
