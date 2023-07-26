@@ -1,0 +1,39 @@
+name: 部署博客-生产环境
+
+on:
+  push:
+    branches:
+      - master # 推送 master 分支时触发
+  workflow_dispatch: # 使用 workflow_dispatch 事件触发手动执行
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.14.0
+
+      - name: 安装PNPM
+        run: npm install -g pnpm # 或者使用你的包管理器命令
+
+      - name: 安装依赖
+        run: pnpm i # 或者使用你的包管理器命令
+
+      - name: 构建项目
+        run: pnpm run build # 或者使用你的构建命令
+
+      - name: 上传文件到服务器
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.SERVER_HOST_PORDUCTION }}
+          username: ${{ secrets.SERVER_USERNAME_PORDUCTION }}
+          password: ${{ secrets.SERVER_PRIVATE_KEY_PORDUCTION }}
+          port: 22
+          source: 'docs/.vitepress/dist'
+          target: /www/wwwroot/www.appletest.cn
