@@ -35,5 +35,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME_PORDUCTION }}
           password: ${{ secrets.SERVER_PRIVATE_KEY_PORDUCTION }}
           port: 22
-          source: 'docs/.vitepress/dist'
+          source: 'docs/.vitepress/dist/*'
           target: /www/wwwroot/www.appletest.cn
