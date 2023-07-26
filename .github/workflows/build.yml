@@ -20,7 +20,7 @@ jobs:
           node-version: 18.14.0
 
       - name: 安装PNPM
-        run: npm install -g pnpm # 或者使用你的包管理器命令
+        run: npm install -g pnpm@7.28.0 # 或者使用你的包管理器命令
 
       - name: 安装依赖
         run: pnpm i # 或者使用你的包管理器命令
