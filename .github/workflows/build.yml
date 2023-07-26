@@ -37,3 +37,4 @@ jobs:
           port: 22
           source: 'docs/.vitepress/dist/*'
           target: /www/wwwroot/www.appletest.cn
+          strip_components: 3
