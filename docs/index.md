@@ -26,7 +26,7 @@ lastUpdated: false
 
 <img src="./icons/go/go-original.svg" width="34" />
 
-<img src="./typescript/typescript-original.svg" width="34" />
+<img src="./icons/typescript/typescript-original.svg" width="34" />
 
 <img src="./icons/vuejs/vuejs-original.svg" width="34" />
                     
