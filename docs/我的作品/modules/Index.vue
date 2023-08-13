@@ -47,7 +47,7 @@ const openPage = (url) => {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 1rem;
   padding: 1rem;
   color: white !important;

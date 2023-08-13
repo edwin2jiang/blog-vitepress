@@ -8,9 +8,8 @@ import { nav, sidebarBlog, sidebarLearningNote } from './nav/index'
 export default defineConfig({
   title: '夏2同学的个人小站',
   description: 'Vite & Vue powered static site generator.',
-
+  lang: 'zh-CN',
   lastUpdated: true,
-
   themeConfig: {
     logo: '/me.jpg',
     nav: nav(),
