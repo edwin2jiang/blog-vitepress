@@ -20,7 +20,7 @@ const openPage = (url) => {
 </script>
 
 <template>
-  <div>
+  <div class="mt-100">
     <h2 class="card-header">我的作品</h2>
     <div class="cards">
       <div
